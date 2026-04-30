@@ -195,7 +195,7 @@ ${loading ? "opacity-70 cursor-not-allowed" : "hover:scale-[1.02]"}
 
         {/* FOOTER */}
         <div className="mt-24 pt-10 border-t border-slate-200 text-center text-slate-500">
-          © 2026 Arul Selvam
+          © 2026 Arul Selvam, All rights reserved
         </div>
       </div>
     </section>
