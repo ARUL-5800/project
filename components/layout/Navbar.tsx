@@ -80,10 +80,28 @@ transition
           </a>
 
           <a
-            href="#contact"
+            href="https://wa.me/917092295012"
+            target="_blank"
             className="
-ml-3
-px-6 py-3
+w-12 h-12
+flex items-center justify-center
+rounded-2xl
+bg-green-500
+text-white
+shadow
+text-xl
+hover:scale-105
+transition
+"
+          >
+            💬
+          </a>
+
+          <a
+            href="tel:+917092295012"
+            className="
+ml-0
+px-1.5 py-3
 rounded-full
 bg-gradient-to-r
 from-cyan-500
@@ -95,24 +113,10 @@ hover:-translate-y-1
 transition
 "
           >
-            Let's Talk
+            Let's Talk 📞
           </a>
         </div>
 
-        {/* mobile button */}
-        {/* <button
-          className="
-md:hidden
-w-12 h-12
-rounded-2xl
-bg-white
-border border-slate-200
-shadow
-text-xl
-"
-        >
-          ☰
-        </button> */}
       </div>
     </motion.nav>
   );

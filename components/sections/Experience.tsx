@@ -3,7 +3,7 @@
 const jobs = [
   {
     period: "Dec 2022 — Present",
-    role: "Software Engineer",
+    role: "Sr. Software Engineer",
     company: "Petrus Technologies (LMW Group)",
     points: [
       "Designed and developed RESTful APIs using Python and Flask for real-time industrial IoT monitoring.",
@@ -125,7 +125,7 @@ mb-8
 text-4xl
 font-bold
 leading-tight
-mb-6
+mb-3
 text-slate-900
 "
               >
@@ -140,7 +140,7 @@ text-slate-900
                 className="
 tracking-[4px]
 text-cyan-600
-mb-14
+mb-3
 "
               >
                 2017 — 2021
@@ -150,7 +150,7 @@ mb-14
                 className="
 border-t
 border-slate-200
-pt-10
+pt-8
 "
               >
                 <p
@@ -159,7 +159,7 @@ uppercase
 tracking-[4px]
 text-sm
 text-cyan-600
-mb-6
+mb-3
 "
                 >
                   Recognition

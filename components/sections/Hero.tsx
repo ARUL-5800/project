@@ -17,42 +17,36 @@ export default function Hero() {
 inline-block
 px-6 py-3
 rounded-full
-bg-black
+bg-white
 border border-slate-200
 shadow
 font-medium
-mb-8
+mb-5
+text-slate-700
 "
           >
-            IoT Software Engineer • AWS • Backend Developer
+            Backend Engineer • AWS • Distributed Systems
           </p>
 
-          <h1
-            className="
-text-7xl lg:text-8xl
-font-black
-tracking-tight
-leading-[1.05]
-text-slate-900
-"
-          >
-            Building
-            <span className="block bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent">
-              Scalable Cloud Systems
+          <h1 className="text-6xl lg:text-7xl font-black tracking-[0.01em] leading-[1.1] text-slate-900">
+            Powering
+            <span className="block leading-[1.25] bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent">
+              Real-Time Data Systems
             </span>
           </h1>
 
           <p
             className="
-mt-10
-text-2xl
+mt-8
+text-xl
 leading-relaxed
 text-slate-600
 max-w-2xl
 "
           >
-            I design real-time industrial data platforms, DynamoDB-backed APIs
-            and AWS data pipelines processing millions of records.
+            I build real-time backend systems and cloud pipelines that process
+            millions of records, power industrial platforms, and deliver
+            reliable, scalable performance.
           </p>
 
           <div className="flex gap-5 flex-wrap mt-12">
@@ -91,23 +85,6 @@ transition
               Contact Me
             </a>
           </div>
-
-          {/* <div className="grid md:grid-cols-3 gap-6 mt-20">
-            <div className="bg-white rounded-3xl p-6 shadow-lg border border-slate-100">
-              <h3 className="text-4xl font-bold text-slate-900">400+</h3>
-              <p className="text-slate-500 mt-2">Assets Managed</p>
-            </div>
-
-            <div className="bg-white rounded-3xl p-6 shadow-lg border border-slate-100">
-              <h3 className="text-4xl font-bold text-slate-900">10M+</h3>
-              <p className="text-slate-500 mt-2">Records Processed</p>
-            </div>
-
-            <div className="bg-white rounded-3xl p-6 shadow-lg border border-slate-100">
-              <h3 className="text-4xl font-bold text-slate-900">42ms</h3>
-              <p className="text-slate-500 mt-2">Latency</p>
-            </div>
-          </div> */}
         </motion.div>
 
         {/* RIGHT */}
@@ -132,20 +109,35 @@ shadow-[0_30px_80px_rgba(15,23,42,.08)]
               <div className="w-3 h-3 rounded-full bg-green-400" />
             </div>
 
-            <pre className="text-slate-800 text-lg leading-10 font-mono overflow-auto">
-              {`
-$ telemetry-status
+            {/* ABOUT ME CONTENT */}
+            <div className="text-slate-700 text-lg leading-8 space-y-5">
+              <p className="text-xl font-semibold text-slate-900">
+                👋 Welcome to my portfolio
+              </p>
 
-System: ACTIVE
-Assets: 400+
-Pipelines: Running
-Records/day: 10M+
-Latency: 42ms
-Status: Healthy
-`}
-            </pre>
+              <p>
+                I’m{" "}
+                <span className="font-semibold text-slate-900">
+                  Arul Selvam
+                </span>
+                , a Backend Engineer focused on building scalable cloud-native
+                systems.
+              </p>
+
+              <p>
+                With experience in Python, AWS, and real-time industrial
+                platforms, I design APIs, process high-volume data streams, and
+                build reliable backend architectures.
+              </p>
+
+              <p>
+                I enjoy solving complex engineering problems and creating
+                systems that perform efficiently at scale.
+              </p>
+            </div>
           </div>
 
+          {/* FLOATING CARD */}
           <div
             className="
 absolute
@@ -160,9 +152,8 @@ p-8
 shadow-2xl
 "
           >
-            <p className="text-sm opacity-90 mb-2">Current Focus</p>
-
-            <h3 className="text-2xl font-bold">Python Backend Engineering</h3>
+            <p className="text-sm opacity-90 mb-2">What I Build</p>
+            <h3 className="text-2xl font-bold">Scalable Backend & Data Systems</h3>
           </div>
         </motion.div>
       </div>

@@ -15,14 +15,14 @@ sub:"Streaming Layer",
 icon:"⚡"
 },
 {
-name:"Lambda",
-sub:"Processing",
-icon:"⚙️"
-},
-{
 name:"DynamoDB",
 sub:"Storage",
 icon:"🗄️"
+},
+{
+name:"Lambda",
+sub:"Processing",
+icon:"⚙️"
 },
 {
 name:"Dashboards",
@@ -70,7 +70,7 @@ viewport={{once:true}}
 className="
 bg-white
 rounded-[40px]
-p-12
+p-10
 border border-slate-100
 shadow-[0_30px_80px_rgba(15,23,42,.08)]
 "
@@ -153,13 +153,15 @@ overflow-auto
 ↓
 Kafka / AWS IoT Core
 ↓
-Lambda Consumers
+SQS
 ↓
 DynamoDB + GSIs
 ↓
 Glue Aggregations
 ↓
 Reporting APIs
+↓
+Lambda
 ↓
 Dashboards`}
 </pre>
