@@ -4,6 +4,21 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Petrus Connect 2.0",
+    desc: "Next-generation industrial connectivity platform enabling seamless machine-to-cloud communication and real-time production insights.",
+    stack: [
+      "Python",
+      "Flask",
+      "AWS Lambda",
+      "DynamoDB",
+      "MQTT",
+      "WebSocket",
+      "Docker",
+    ],
+    metric: "Live Production",
+    icon: "🚀",
+  },
+  {
     title: "Industrial OEE Data Platform",
     desc: "Built aggregation pipelines for industrial telemetry, KPI computation and scalable OEE analytics.",
     stack: ["Python", "AWS Glue", "DynamoDB", "MongoDB", "gRPC", "FastAPI"],
@@ -11,11 +26,11 @@ const projects = [
     icon: "⚡",
   },
   {
-    title: "High Scale Reporting Engine",
-    desc: "Optimized query-heavy reporting APIs for industrial data and operational dashboards.",
-    stack: ["Lambda", "FastAPI", "DynamoDB", "Polars", "AWS Glue", "CloudWatch", "GSI"],
-    metric: "700+ Assets",
-    icon: "🚀",
+    title: "Vibration Monitoring System",
+    desc: "Developed a solution to collect real-time vibration sensor data and store it in AWS Timestream for time-series analysis. Integrated Grafana dashboards to visualize live data and configured alerts for predictive machine maintenance.",
+    stack: ["Python", "MQTT", "AWS Timestream", "Grafana"],
+    metric: "Proof of Concept",
+    icon: "📳",
   },
   {
     title: "Real-Time Monitoring System",
@@ -24,14 +39,47 @@ const projects = [
     metric: "24/7 Streaming",
     icon: "📡",
   },
+  {
+    title: "High Scale Reporting Engine",
+    desc: "Optimized query-heavy reporting APIs for industrial data and operational dashboards.",
+    stack: [
+      "Lambda",
+      "FastAPI",
+      "DynamoDB",
+      "Polars",
+      "AWS Glue",
+      "CloudWatch",
+      "GSI",
+    ],
+    metric: "700+ Assets",
+    icon: "🔗",
+  },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-0 px-8">
+    <section id="projects" className="py-10 px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <p className="inline-block px-6 py-3 rounded-full bg-black border border-slate-200 shadow mb-6 font-medium">
+          <p
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full mb-6"
+            style={{
+              background: "#EEF2FF",
+              color: "#4338CA",
+              border: "1.5px solid #C7D2FE",
+              fontFamily: "Georgia, serif",
+              fontWeight: 700,
+            }}
+          >
+            <span
+              style={{
+                width: 7,
+                height: 7,
+                borderRadius: "50%",
+                background: "#6366F1",
+                display: "inline-block",
+              }}
+            />
             Featured Work
           </p>
 

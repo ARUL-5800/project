@@ -108,51 +108,7 @@ shadow-[0_20px_60px_rgba(15,23,42,.08)]
 border border-slate-200
 "
             >
-              <p
-                className="
-uppercase
-tracking-[4px]
-text-cyan-600
-text-sm
-mb-8
-"
-              >
-                Education
-              </p>
-
-              <h3
-                className="
-text-4xl
-font-bold
-leading-tight
-mb-3
-text-slate-900
-"
-              >
-                B.E, Mechanical Engineering
-              </h3>
-
-              <p className="text-xl text-slate-500 mb-10">
-                SVS College of Engineering, Coimbatore
-              </p>
-
-              <p
-                className="
-tracking-[4px]
-text-cyan-600
-mb-3
-"
-              >
-                2017 — 2021
-              </p>
-
-              <div
-                className="
-border-t
-border-slate-200
-pt-8
-"
-              >
+              <div>
                 <p
                   className="
 uppercase
@@ -173,6 +129,7 @@ from-indigo-50
 to-cyan-50
 p-8
 border border-indigo-100
+mb-7
 "
                 >
                   <h4 className="text-2xl font-bold mb-3 text-slate-900">
@@ -186,6 +143,51 @@ border border-indigo-100
                   </p>
                 </div>
               </div>
+              <div
+                className="
+border-t
+border-slate-200
+pt-8
+"
+              >
+                <p
+                  className="
+uppercase
+tracking-[4px]
+text-cyan-600
+text-sm
+mb-8
+"
+                >
+                  Education
+                </p>{" "}
+              </div>
+
+              <h3
+                className="
+text-4xl
+font-bold
+leading-tight
+mb-1
+text-slate-900
+"
+              >
+                B.E, Mechanical Engineering
+              </h3>
+
+              <p className="text-xl text-slate-500 mb-6">
+                SVS College of Engineering, Coimbatore
+              </p>
+
+              <p
+                className="
+tracking-[3px]
+text-cyan-600
+mb-2
+"
+              >
+                2017 — 2021
+              </p>
             </div>
           </div>
         </div>

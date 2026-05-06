@@ -3,14 +3,24 @@ export default function Contact() {
     <section id="contact" className="py-10 px-8">
       <div className="max-w-5xl mx-auto text-center">
         <p
-          className="
-uppercase
-tracking-[4px]
-text-cyan-600
-font-medium
-mb-6
-"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-full mb-6"
+          style={{
+            background: "#EEF2FF",
+            color: "#4338CA",
+            border: "1.5px solid #C7D2FE",
+            fontFamily: "Georgia, serif",
+            fontWeight: 700,
+          }}
         >
+          <span
+            style={{
+              width: 7,
+              height: 7,
+              borderRadius: "50%",
+              background: "#6366F1",
+              display: "inline-block",
+            }}
+          />
           Contact
         </p>
 

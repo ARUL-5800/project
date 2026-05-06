@@ -118,7 +118,7 @@ shadow-[0_30px_80px_rgba(15,23,42,.08)]
               <p>
                 I’m{" "}
                 <span className="font-semibold text-slate-900">
-                  Arul Selvam
+                  ArulSelvam
                 </span>
                 , a Backend Engineer focused on building scalable cloud-native
                 systems.
